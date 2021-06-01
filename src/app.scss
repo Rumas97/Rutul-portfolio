@@ -1,0 +1,21 @@
+.app{
+    height: 100vh;
+
+}
+
+.sections{
+    //making each section to be 100% width
+    width: 100%;
+    height: calc(100vh - 70px);
+    background-color: aquamarine;
+    position: relative;
+    top: 70px;
+    scroll-behavior: smooth;
+ 
+}
+
+.sections > *{
+    width: 100%;
+    height: calc(100vh - 70px);
+
+}

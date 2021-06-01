@@ -1,0 +1,86 @@
+.intro{
+    background-color:#fafafa;
+    display: flex;
+
+    .left{
+        flex: 0.45;
+        background-color: #fafafa;
+
+        .imgContainer{
+            width: 100%;
+            height:100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        img{
+            height:60%
+        }
+    }
+
+    .right{
+        flex: 0.55;
+        //whenever you use absolute the parent element must be relative positioned
+        position: relative;
+        background-color: #abe7db;
+
+        .wrapper{
+            width: 100%;
+            height: 100%;
+            padding-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            h1{
+                font-size: 60px;
+                margin: 10px 0;
+            }
+            h2{
+                font-size: 35px;
+            }
+            h3{
+                font-size: 30px;
+
+                span{
+                    font-size: 30px;
+                    color: #fd6e72;
+                }
+
+                .ityped-cursor{
+                    font-size: 2.2rem;
+                    font-weight: 300;
+                    animation: blink 1s infinite;
+                }
+                @keyframes blink {
+                    50%{
+                        opacity: 1;
+                    }
+                    100%{
+                        opacity: 0;
+                    }
+                    
+                }
+
+            }
+        }
+
+        a{
+            position: absolute;
+            bottom: 10px;
+            left: 40%;
+
+            img{
+                width: 30px;
+                animation: arrowBlink 2s infinite;
+            }
+
+            @keyframes arrowBlink {
+                100%{
+                    opacity: 0;
+                }
+            }
+        }
+    }
+}
