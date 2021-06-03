@@ -27,6 +27,8 @@ function Intro() {
                     <h1>Rutul Maskar</h1>
                     <h3>I'm a <span ref={textRef}></span></h3>
                 </div>
+                <br></br>
+                <br></br>
                 <a href='#projects'>
                     <img src='assets/down.png' alt='down-arrow'/>
                 </a>

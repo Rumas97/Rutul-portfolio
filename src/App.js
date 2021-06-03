@@ -5,6 +5,8 @@ import Intro from './components/intro/Intro';
 import Topbar from './components/topbar/Topbar';
 import Projects from './components/projects/Projects';
 import './app.scss'
+import Skills from './components/skills/Skills';
+import AboutMe from './components/about/AboutMe';
 
 
 
@@ -16,7 +18,9 @@ function App() {
       <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
       <div className='sections'>
         <Intro />
+        <Skills />
         <Projects />
+        <AboutMe />
         <Contact />
       </div>
     </div>

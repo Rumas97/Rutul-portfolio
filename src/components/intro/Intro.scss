@@ -1,6 +1,13 @@
+@import '../../global.scss';
+
 .intro{
     background-color:#fafafa;
     display: flex;
+
+    @include mobile{
+        flex-direction: column;
+        align-items: center;
+    }
 
     .left{
         flex: 0.45;
@@ -12,18 +19,30 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            float:right;
+
+            @include mobile{
+                align-items: flex-start;
+            }
+
+            img{
+                height:60%;
+    
+                @include mobile{
+                    height: 200px;
+                }
+            }
         }
 
-        img{
-            height:60%
-        }
+        
     }
 
     .right{
         flex: 0.55;
         //whenever you use absolute the parent element must be relative positioned
         position: relative;
-        background-color: #abe7db;
+      
+        // background-color: #abe7db;
 
         .wrapper{
             width: 100%;
@@ -32,26 +51,56 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+            
+
+            @include mobile{
+                padding-left:0;
+                align-items: center;
+            }
 
             h1{
                 font-size: 60px;
                 margin: 10px 0;
+
+                @include mobile{
+                    font-size: 30px;
+                    margin: 0 0;
+                }
             }
             h2{
                 font-size: 35px;
+
+                @include mobile{
+                    font-size: 20px;
+                    margin: 5px 0;
+                   
+                }
             }
             h3{
                 font-size: 30px;
 
+                @include mobile{
+                    font-size: 18px;
+                    margin: 0 0;
+                }
+
                 span{
                     font-size: 30px;
                     color: #fd6e72;
+
+                    @include mobile{
+                        font-size: 21px;
+                    }
                 }
 
                 .ityped-cursor{
                     font-size: 2.2rem;
                     font-weight: 300;
                     animation: blink 1s infinite;
+
+                    @include mobile{
+                        font-size: 1.2rem;
+                    }
                 }
                 @keyframes blink {
                     50%{
@@ -71,9 +120,14 @@
             bottom: 10px;
             left: 40%;
 
+
             img{
                 width: 30px;
                 animation: arrowBlink 2s infinite;
+
+                @include mobile{
+                    width: 20px;
+                }
             }
 
             @keyframes arrowBlink {
