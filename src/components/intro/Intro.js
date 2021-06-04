@@ -26,12 +26,13 @@ function Intro() {
                     <h2>Hi there, I'm</h2>
                     <h1>Rutul Maskar</h1>
                     <h3>I'm a <span ref={textRef}></span></h3>
-                </div>
+                
                 <br></br>
                 <br></br>
-                <a href='#projects'>
+                <a href='#skills'>
                     <img src='assets/down.png' alt='down-arrow'/>
                 </a>
+                </div>
             </div>
         </div>
     )

@@ -42,10 +42,10 @@
         }
 
         img{
-            width: 144px;
+            width: 120px;
 
             @include mobile{
-                width:56px;
+                width:84px;
             }
 
         }
@@ -64,10 +64,10 @@
 }
 
 #nodejs {
-    width: 144px;
+    width: 120px;
 
     @include mobile{
-        width:56px;
+        width:84px;
         margin:15px;
     }
 
@@ -88,7 +88,7 @@
     width: 144px;
 
     @include mobile{
-        width:56px;
+        width:84px;
         margin:15px;
     }
 
