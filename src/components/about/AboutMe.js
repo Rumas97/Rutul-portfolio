@@ -9,15 +9,20 @@ function AboutMe() {
                 <div className='division'>
                     <div className='left'>
                             
-                        <p>I'm a Full Stack developer currently living in Düsseldorf, Germany. I have a background in Mechanical Engineering and as a side-project I'm studying Master in Economics and Business Administration. The thrill at being able to bring my imagination to life has taken me on a journey from being a mechanical design engineer and finally brought me to web development. 
+                        <p>I'm Rutul Maskar, a web developer based in Düsseldorf, Germany. I'm focused on using frontend and backend technologies to build amazing products. 
+                            <br/>
+                            <br/>                            
+                            My formal education in Mechanical Engineering taught me to combine creativity, knowledge and analytical tools to complete the difficult task of bringing an idea into life. The thrill at being able to build new, awesome things faster than ever before took me on a journey to learn coding and finally brought me to web development. 
                                 <br/>
                                 <br/>
                                 
-                        Through my experiences working in an international automotive company, I had the opportunity to work in different countries in a multi-cultural teams. The combination of creative problem-solving and analytical skills that I gained in this field has prepared me to become a better developer. 
+                        Through my experiences having worked and lived in different countries, I have developed skills to communicate effectively, to keep an open-mind and adapt continuously. 
                                 <br/>
                                 <br/>
-
-                        In the last few months at the Web Development Bootcamp at Ironhack, I have developed not only games and apps but also a sense of community, passion to continue learning and being curious. </p>
+                        In my free time, I like to dig my head in a nice book or work on my part-time Masters in Economics and Business. I brush up the creative side of my brain by rocking it out with my guitar with the band. I love the outdoors-from rafting in Indian rivers, climbing the highest mountain in Germany to hiking in the Swedish Lapplands. I like to stay active and keep challenging myself both physically and intellectually.
+                                <br/>
+                                <br/>
+                        I'm always experimenting, always learning and forever curious. </p>
                             
                     </div>
 

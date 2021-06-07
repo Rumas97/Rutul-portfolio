@@ -32,6 +32,7 @@
         .wrapper{
             width: 100%;
             display: flex;
+            justify-content: center;
             
             @include mobile{
                 margin-top: 20px;
@@ -41,7 +42,7 @@
             }
 
             .item{
-                width: 33.3%; 
+                width: 400px; 
                 border-radius: 20px;
                 border:1px solid rgb(255, 255, 255);
                 margin:20px 10px;
@@ -66,7 +67,7 @@
 
                     @include mobile{
                         top: 5px;
-                        font-size: 18px;
+                        font-size: 15px;
                         
                     }
                 }
@@ -78,18 +79,30 @@
     
                 img{
                     
-                    object-fit: cover;
+                    object-fit:cover;
                     z-index: 1;
                 }
     
                 p{
                     position: absolute;
                     font-size: 15px;
-                    margin: 15px;
+                    margin: 25px 15px 0 15px;
 
                     @include mobile{
                         font-size: 11px;
-                        margin: 15px;
+                        margin: 30px 15px 0 15px;
+                    }
+                }
+
+                h5{
+                    font-size: 15px;
+                    font-weight: 700;
+                    margin-left: 33%;
+                    margin-top: 30px;
+
+                    @include mobile{
+                        font-size: 11px;
+                        margin-top:10px;
                     }
                 }
     

@@ -60,7 +60,7 @@ function Contact() {
     return (
         <div className='contact' id='contact'>
             <h1>Contact</h1>
-            <h3>Enough stalking. Time to do some talking.</h3>
+            <h3>I'd love to hear from you. Whether it's a project, job opportunity or just a chat!</h3>
             <div className='container'>
                 
                 <div className='left' >
@@ -85,7 +85,7 @@ function Contact() {
                     </div>
                 </div>
                 <div className='right' >
-                    <h2>General enquiries</h2>
+                    <h2>Or drop a message here!</h2>
                     <form onSubmit={handleSubmit(onSubmit)}>
                         <input 
                             type='name'

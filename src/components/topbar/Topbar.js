@@ -9,15 +9,9 @@ function Topbar(props) {
         <div className={'topbar ' + (menuOpen && 'active')}>
             <div className='wrapper'>
                 <div className='left'>
-                    <a href='#intro'className='logo'> CoolLogo </a>
-                    {/* <div className='itemContainer'>
-                        <Person className='icon'/>
-                        <span>+49 176 8248 1092</span>
-                    </div>
-                    <div className='itemContainer'>
-                        <Mail className='icon'/>
-                        <span>rutulmaskar23@gmail.com</span>
-                    </div> */}
+                    <a href='#intro'className='logo'> 
+                    <img src='assets/logo.png'/></a>
+                    
                 </div>
                 
                 <div className='right'>
