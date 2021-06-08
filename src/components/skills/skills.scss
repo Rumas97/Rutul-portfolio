@@ -2,11 +2,15 @@
 
 .skills{
     background-color: #e6e6e6;
+    height:100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 20px;
   
+    @include mobile{
+        height:auto;
+    }
 
     .container{
         display: flex;
@@ -55,7 +59,7 @@
 
     h1{
         font-size: 50px;
-        overflow-y: hidden;
+        // overflow-y: hidden;
 
         @include mobile{
             font-size: 20px;

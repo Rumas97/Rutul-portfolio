@@ -5,6 +5,7 @@
     background-color:#fafafa;
     display: flex;
     justify-content: center;
+    height: 100vh;
 
     @include mobile{
         flex-direction: column;
@@ -47,7 +48,7 @@
         // flex: 0.55;
         //whenever you use absolute the parent element must be relative positioned
         position: relative;
-        overflow: hidden;
+        // overflow: hidden;
 
         .wrapper{
             width: 600px;
@@ -83,67 +84,79 @@
                    
                 }
             }
-            h3{
-                color: black;
-                font-size: 30px;
+
+            .container{
+                
+                display: flex;
+                flex-wrap: wrap;
 
                 @include mobile{
-                    font-size: 18px;
-                    margin: 0 0;
+                    width: 250px;
                 }
 
-                span{
+                h3{
+                    color: black;
                     font-size: 30px;
-                    color: #fd6e72;
-
-                    @include mobile{
-                        font-size: 21px;
-                    }
-                }
-
-                .ityped-cursor{
-                    font-size: 2.2rem;
-                    font-weight: 300;
-                    animation: blink 1s infinite;
-
-                    @include mobile{
-                        font-size: 1.2rem;
-                    }
-                }
-                @keyframes blink {
-                    50%{
-                        opacity: 1;
-                    }
-                    100%{
-                        opacity: 0;
-                    }
-                    
-                }
-
-            }
-
-            a{
-                position: absolute;
-                bottom: 10px;
-                left: 50%;
-    
-    
-                img{
-                    width: 30px;
-                    
-                    animation: arrowBlink 2s infinite;
     
                     @include mobile{
-                        width: 20px;
+                        font-size: 18px;
+                        margin: 0 0;
                     }
-                }
     
-                @keyframes arrowBlink {
-                    100%{
-                        opacity: 0;
+                    span{
+                        font-size: 30px;
+                        color: #fd6e72;
+    
+                        @include mobile{
+                            font-size: 21px;
+                        }
                     }
+    
+                    .ityped-cursor{
+                        font-size: 2.2rem;
+                        font-weight: 300;
+                        animation: blink 1s infinite;
+    
+                        @include mobile{
+                            font-size: 1.2rem;
+                        }
+                    }
+                    @keyframes blink {
+                        50%{
+                            opacity: 1;
+                        }
+                        100%{
+                            opacity: 0;
+                        }
+                        
+                    }
+    
                 }
             }
+            
+
+            //  a{
+            //      position: absolute;
+            //      bottom: 10px;
+            //      left: 50%;
+    
+    
+            //      img{
+            //          width: 30px;
+                    
+            //          animation: arrowBlink 2s infinite;
+    
+            //          @include mobile{
+            //              width: 20px;
+            //          }
+            //      }
+    
+            //      @keyframes arrowBlink {
+            //          100%{
+            //              opacity: 0;
+            //          }
+            //      }
+            //  }
         }
 
         

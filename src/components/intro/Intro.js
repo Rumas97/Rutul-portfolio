@@ -24,25 +24,24 @@ function Intro() {
         <div className='intro ' id='intro'>
             <LottieControl animation={data} width={"500px"} height={'350px'} />
             {/* <div className='left'>
-                <div className='imgContainer'>
-                    <img src='assets/rutulmas.png' alt='rutul-img' />
-                </div>
-            </div> */}
+                    <div className='imgContainer'>
+                        <img src='assets/rutulmas.png' alt='rutul-img' />
+                    </div>
+                </div> */}
             <div className='right'>
                 <div className='wrapper'>
                     <h2>Hi there, I'm</h2>
                     <h1>Rutul Maskar</h1>
 
                     <div className='container'>
-                    <h3>I'm a <span ref={textRef}></span></h3>
+                        <h3>I'm a <span ref={textRef}></span></h3>
                     </div>
                 
-                <br/>
-                <br/>
-                <br/>
-                <a href='#skills'>
-                    <img src='assets/down.png' alt='down-arrow'/>
-                </a>
+                        <br/>
+                       
+                    {/* <a href='#skills'>
+                        <img src='assets/down.png' alt='down-arrow'/>
+                    </a> */}
                 </div>
             </div>
         </div>
