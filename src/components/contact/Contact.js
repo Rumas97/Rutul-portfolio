@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import emailjs from 'emailjs-com';
 import { useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
@@ -49,13 +49,6 @@ function Contact() {
         }
     }
     
-
-    // const[message, setMessage]= useState(false)
-
-    // const handleSubmit=(e)=>{
-    //     e.preventDefault()
-    //     setMessage(true)
-    // }
 
     return (
         <div className='contact' id='contact'>
