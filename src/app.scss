@@ -6,7 +6,7 @@
         height: calc(100vh - 70px);
         position: relative;
         top: 70px;
-        overflow-y: scroll;
+        scroll-behavior: smooth;
         scroll-snap-type: y mandatory;
         
       
