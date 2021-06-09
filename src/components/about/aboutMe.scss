@@ -15,6 +15,14 @@
         
     }
 
+    h1{
+        font-size: 50px;
+
+        @include mobile{
+            font-size: 20px;
+        }
+    }
+
     .container{
 
         width: 90%;
@@ -24,15 +32,10 @@
 
         @include mobile{
             width: 100%;
+            height:auto;
         }
 
-        h1{
-            font-size: 50px;
-    
-            @include mobile{
-                font-size: 20px;
-            }
-        }
+        
     
         .division{
             display: flex;
@@ -44,9 +47,6 @@
     
             .left{
                 flex:0.6;
-                // background-color: rebeccapurple;
-                // display: flex;
-                // align-items: center;
                 padding: 30px;
     
                 @include mobile{
