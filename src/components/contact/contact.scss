@@ -193,11 +193,35 @@
         }
     }
 
-    .toastBody {
-        font-family:'Poppins', sans-serif;
-        color: #10171D; /* #10171D */
-        font-size: 0.875rem !important;
+
+    .Toastify__toast-container{
+
+        @include mobile{
+            width: 100vw;
+        }
+
+        .Toastify__toast{
+            background:#0F2D2E;
+            color:#fd6e72;
+            @include mobile{
+                font-size: 12px;
+            }
+        }
+
+        .Toastify__toast-body{
+            margin: 0;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .Toastify__close-button {
+            color: #fd6e72;
+        }
+        
+        
       }
+    
     
        
 }

@@ -10,7 +10,7 @@ function Contact() {
     const { register, formState: { errors } ,handleSubmit, reset } = useForm();
 
     const toastifySuccess = () => {
-        toast('Form sent! 🚀', {
+        toast('Message sent! 🚀', {
           position: 'bottom-center',
           autoClose: 5000,
           hideProgressBar: true,
