@@ -72,8 +72,8 @@ function Contact() {
                             <p><a href='https://twitter.com/Rumas24410288'>Twitter</a></p>
                         </div>
                         <div className='item'>
-                            <a href='mailto:rutulmaskar23@gmail.com'><img src='assets/mail.svg'></img></a>
-                            <p><a href='mailto:rutulmaskar23@gmail.com'>E-Mail</a></p>
+                            <a href='mailto:rutulmaskar@gmail.com'><img src='assets/mail.svg'></img></a>
+                            <p><a href='mailto:rutulmaskar@gmail.com'>E-Mail</a></p>
                         </div>
                     </div>
                 </div>
