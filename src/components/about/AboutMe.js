@@ -4,8 +4,9 @@ import './aboutMe.scss'
 function AboutMe() {
     return (
         <div className='aboutme' id='aboutme'>
+            <h1>About me</h1>
             <div className='container'>
-                <h1>About me</h1>
+                
                 <div className='division'>
                     <div className='left'>
                             

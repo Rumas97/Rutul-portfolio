@@ -2,13 +2,14 @@
 
 .aboutme{
     background-color:#e6e6e6;
-    
+    height:100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 90px;
 
     @include mobile{
+        height:auto;
         flex-direction: column;
         align-items: center;
         
