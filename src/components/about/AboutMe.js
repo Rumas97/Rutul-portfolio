@@ -7,7 +7,7 @@ function AboutMe() {
             <h1>About me</h1>
             <div className='container'>
                 
-                <div className='division'>
+                
                     <div className='left'>
                             
                         <p>I'm Rutul Maskar, a web developer based in Düsseldorf, Germany. I'm focused on using frontend and backend technologies to build amazing products. 
@@ -32,7 +32,7 @@ function AboutMe() {
                                 <img src='assets/rutulmas.png' alt='rutul-img' />
                         </div>
                     </div>
-                </div>
+                
             
             </div> 
 
