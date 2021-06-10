@@ -7,6 +7,7 @@ import Projects from './components/projects/Projects';
 import './app.scss'
 import Skills from './components/skills/Skills';
 import AboutMe from './components/about/AboutMe';
+import Footer from './components/footer/Footer';
 
 
 
@@ -22,7 +23,9 @@ function App() {
         <Projects />
         <AboutMe />
         <Contact />
+        <Footer />
       </div>
+      
     </div>
   );
 }
