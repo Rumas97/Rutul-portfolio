@@ -61,19 +61,19 @@ function Contact() {
                     <div className='wrapper'>
                         <div className='item'>
                             <a href='https://github.com/Rumas97'><img src='assets/github.svg'></img></a>
-                            <p><a href='https://github.com/Rumas97'>GitHub</a></p>
+                            
                         </div>
                         <div className='item'>
                             <a href='https://www.linkedin.com/in/rutul-maskar9743/'><img className='linkedin' src='assets/LinkedInLogo.svg'></img></a>
-                            <p><a href='https://www.linkedin.com/in/rutul-maskar9743/'>LinkedIn</a></p>
+                            
                         </div>
                         <div className='item'>
                             <a href='https://twitter.com/Rumas24410288'><img src='assets/Twitter.svg'></img></a>
-                            <p><a href='https://twitter.com/Rumas24410288'>Twitter</a></p>
+                            
                         </div>
                         <div className='item'>
                             <a href='mailto:rutulmaskar@gmail.com'><img src='assets/mail.svg'></img></a>
-                            <p><a href='mailto:rutulmaskar@gmail.com'>E-Mail</a></p>
+                            
                         </div>
                     </div>
                 </div>
