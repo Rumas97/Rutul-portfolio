@@ -10,7 +10,7 @@
     // padding-top: 70px;
 
     @include mobile{
-        height:900px;
+        height:auto;
         padding-top: 90px;
     }
 
@@ -57,7 +57,7 @@
                 width: 400px;
 
                 @include mobile{
-                    width: 200px;
+                    width: 300px;
                 }
 
                 .card-header img {
