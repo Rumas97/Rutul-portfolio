@@ -15,7 +15,9 @@ function Projects() {
                         </div>
                         <div className="card-body">
                             <h3>21 For Future</h3>
+                            <br></br>
                             <p>A full stack web application that creates environmental awareness through 21-day eco-friendly challenges. Users can browse freely through all challenges and start their own. They can also donate to environmental organizations through a secure donation form.</p>
+                            <br></br>
                             <h5><a href='https://app-21-for-future.herokuapp.com/'>Link to website</a></h5>
                             <br></br>
                             <p className='hashtags'>
@@ -32,13 +34,18 @@ function Projects() {
 
                     <div className="card" id='covid-travel-advice'>
                         <div className="card-header">
-                            <img src="assets/P2.png" alt="covid-travel-advice" />
+                            <img src="assets/covid-travel.png" alt="covid-travel-advice" />
                         </div>
                         <div className="card-body">
                             <h3>Covid Travel Advice</h3>
+                            <br></br>
                             <p>A web application to get information about COVID related travel restrictions. Users can find and enter own travel experiences using an interactive map and forms.</p>
+                            <br></br>
+                            <br></br>
+                            <br></br>
                             <h5><a href='https://covid-travel-advice.herokuapp.com/'>Link to website</a></h5>
                             <br></br>
+                            
                             <p className='hashtags'>
                                 <a href='https://www.javascript.com/'><span className="tag">JavaScript(ES6)</span></a>
                                 <a href='https://nodejs.org/en/'><span className="tag">Node.js</span></a>
@@ -56,7 +63,13 @@ function Projects() {
                         </div>
                         <div className="card-body">
                             <h3>Azkabreak</h3>
+                            <br></br>
                             <p>Hogwarts is under attack! Protect the castle by moving Harry Potter up or down and shooting spells at the incoming dementors.</p>
+                            <br></br>
+                            
+                            <br></br>
+                            <br></br>
+                            <br></br>
                             <h5><a href='https://rumas97.github.io/Azkabreak/'>Link to game</a></h5>
                             <br></br>
                             <p className='hashtags'>

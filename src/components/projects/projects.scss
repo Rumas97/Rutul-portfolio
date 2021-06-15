@@ -2,7 +2,7 @@
 
 .projects{
     background-color: #fafafa;
-    height: 800px;
+    height: 1000px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,17 +32,19 @@
 
             @include mobile{
                 font-size: 20px;
+                padding-bottom: 0;
             }
         }
 
         .wrapper{
             width: 100%;
             display: flex;
-            justify-content: center;
+            justify-content: space-between;
             padding-top: 50px;
     
             @include mobile{
                 margin-top: 20px;
+                padding-top: 0;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
@@ -70,7 +72,7 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    align-items: flex-start;
+                    align-items: center;
                     padding: 20px;
                     min-height: 250px;
 
@@ -105,6 +107,14 @@
                         display: flex;
                         flex-wrap: wrap;
 
+
+                        a{
+                            @include  mobile{
+                            
+                                overflow-y: hidden;
+                            } 
+                        }
+
                         .tag{
                             background: #fafafa;
                             border-radius: 50px;
@@ -119,6 +129,7 @@
     
                             @include  mobile{
                                 font-size: 10px;
+                               
                             }
                         }
                     }

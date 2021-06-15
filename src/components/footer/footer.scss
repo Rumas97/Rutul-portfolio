@@ -3,9 +3,16 @@
 .footer{
     text-align:center;
     background-color: #fafafa;
+    padding-top: 40px;
+
+    @include mobile{
+        font-size: 12px;
+    }
 
     a{
         color: #0F2D2E; 
         text-decoration: none;
+
+        
     }
 }
